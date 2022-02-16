@@ -671,6 +671,10 @@ About Page for Tablet
   width: 45%;
 }
 
+.map figure {
+  padding-bottom: 45.5%;
+}
+
 .contact-section .content-wrapper h2{
   width: 80%;
 }
@@ -788,6 +792,10 @@ footer h4 {
 /*====================================================================
 About Page for Desktop
 =====================================================================*/
+
+.map figure   {
+  padding-bottom: 37.5%;
+}
 
 .mission h2,
 .contact-section, .content-wrapper h2 {
