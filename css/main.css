@@ -126,7 +126,7 @@ h4 {
 
 p  {
       font-size: .875em;
-      line-height: 1.285em;
+      line-height: 1.285;
    }
 
 img {
@@ -326,6 +326,11 @@ input [type=button] {
   flex-flow: row wrap;
 }
 
+.features i {
+  font-size: 3.75em;
+  margin-bottom: 40px;
+}
+
 .features p {
   margin: 0;
   text-align: center;
@@ -515,9 +520,11 @@ input [type=button] {
 @media only screen and (min-width: 768px) {
   /* Tablet styles here */
 
+  /* General Styles */
+
 .content-wrapper {
   max-width: 640px;
-  margin: 100px;
+  margin: 100px 0;
   }
 
   h2  {
@@ -552,7 +559,6 @@ header nav {
 
 header nav ul {
   justify-content: space-between;
-  list-style-type: none;
 }
 
 .header-divider {
@@ -577,11 +583,11 @@ aside .content-wrapper {
   margin: 50px 0;
   display: flex;
   justify-content: space-between;
-  flex-flow: row  nowrap;
+  flex-flow: row  wrap;
 }
 
 aside .content-wrapper .form-description, aside .content-wrapper .form {
-  width: 40%;
+  width: 35%;
   margin: 0;
 }
 
@@ -685,12 +691,6 @@ About Page for Tablet
   align-items: flex-start;
 }
 
-.contact-content{
-  display: flex;
-  justify-content: space-between;
-  align-items: flex-start;
-}
-
 .contact-content h4 {
   font-size: 1.5em;
 }
@@ -725,7 +725,7 @@ About Page for Tablet
 @media only screen and (min-width:1200px) { 
   /* Desktop styles here */
 
-.header-divider{
+header {
   padding: 15px 0;
 }
 
@@ -760,7 +760,7 @@ aside .content-wrapper{
 
 aside .content-wrapper .form-description, 
 aside .content-wrapper .form  {
-  width: 30%;
+  width: 40%;
 }
 
 .form-description p {
@@ -777,12 +777,13 @@ aside .content-wrapper .form  {
 }
 
 /*Reviews*/
-.reviews article div {
-  width: 42%;
-}
 
 .reviews h2 {
   padding-bottom: 50px;
+}
+
+.reviews article div {
+  width: 42%;
 }
 
 footer h4 {
