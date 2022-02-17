@@ -103,6 +103,7 @@ body {
 ul, 
  ol {
      list-style-type: none;
+     margin: 0;
     }
 
 a  {
@@ -114,6 +115,7 @@ h2 {
       font-family: 'Poppins', sans-serif;
       font-size: 1.875em;
       font-weight: 500;
+      margin: 0;
    }
 
 h3, 
@@ -157,7 +159,7 @@ header, footer {
 }
 
 header {
-  padding: 15px 0 0 0;
+  padding: 15px 0;
 }
 
 header .content-wrapper {
@@ -232,9 +234,17 @@ footer .social-icons {
 }
 
 footer .social-icons p {
+  background-color: #527158;
+  border-radius: 50%;
+  width: 40px;
+  height: 40px;
   display: flex;
   justify-content: center;
   align-items: center;
+}
+
+footer .social-icons p i{
+  font-size: 1.3125em;
 }
 
 footer .copyright  {
@@ -587,7 +597,7 @@ aside .content-wrapper {
 }
 
 aside .content-wrapper .form-description, aside .content-wrapper .form {
-  width: 35%;
+  width: 40%;
   margin: 0;
 }
 
@@ -608,6 +618,10 @@ aside .content-wrapper .form-description, aside .content-wrapper .form {
 
 .features .features-item-description {
   width: 62%;
+}
+
+.features i {
+  margin-bottom: 30px;
 }
 
 /*=====Reviews=====*/
@@ -656,6 +670,11 @@ footer h4 {
 
 footer p {
   line-height: 1.285;
+}
+
+footer .social-icons  {
+  width: 12.5em;
+  justify-content: space-between;
 }
 
 footer .copyright {
@@ -750,7 +769,7 @@ p {
 /*Hero Area*/
 .hero-area h1 {
   font-size: 3.75em;
-  width: 60%;
+  width: 80%;
 }
 
 /*Aside*/
@@ -760,7 +779,7 @@ aside .content-wrapper{
 
 aside .content-wrapper .form-description, 
 aside .content-wrapper .form  {
-  width: 40%;
+  width: 30%;
 }
 
 .form-description p {
