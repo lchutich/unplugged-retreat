@@ -819,8 +819,7 @@ About Page for Desktop
 
 .mission h2,
 .contact-section, .content-wrapper h2 {
-  width: 95%;
-  font-size: 3em;
+  width: 100%;
 }
 
 .contact-content h4 {
@@ -841,7 +840,6 @@ FAQ for Desktop
   font-size: 1.125em;
   line-height: 1;
 }
-
 }
 
 
