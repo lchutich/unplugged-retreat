@@ -250,6 +250,9 @@ footer .social-icons p i{
 
 footer .copyright  {
   margin: 20px 0;
+  display: flex;
+  justify-content: center;
+  flex: row nowrap;
 }
 
   /*==================== Mobile Styles - Homepage =================== */
