@@ -576,6 +576,11 @@ header nav ul {
   justify-content: space-between;
 }
 
+header nav ul li {
+  padding: 0 37px 0 0;
+  margin: 0;
+}
+
 .header-divider {
   display: none;
 }
@@ -755,6 +760,15 @@ header {
 
 .content-wrapper  {
   max-width: 960px;
+}
+
+header nav ul {
+  justify-content: space-between;
+}
+
+header nav ul li {
+  padding: 0 37px 0 0;
+  margin: 0;
 }
 
 h2  {
